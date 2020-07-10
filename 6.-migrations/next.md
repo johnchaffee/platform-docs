@@ -46,36 +46,47 @@ Each feature is linked to a card on our public roadmap, and we encourage you to 
 
 Because we've updated our approach to where your data is stored and managed (your VCS rather than our homegrown backend), this migration is a bit more involved. The goal of this migration is to move your data from Stoplight NEXT to Git repos in your VCS, and then to connect those Git repos to your new Stoplight Workspace.
 
-### Migrating project contents
+### Migrating Project
 
 First, let's move the contents of your NEXT project into your own VCS provider.
 
-1. Choose which NEXT project you want to migrate.
-2. Follow [this guide](https://docs.stoplight.io/platform/projects/git-repo#how-to-clone-your-stoplight-git-repository) to git clone the project's contents to a folder on your computer.
-3. Create a new git repository in your VCS provider ([Github](https://help.github.com/en/github/getting-started-with-github/create-a-repo), [Gitlab](https://docs.gitlab.com/ee/gitlab-basics/create-project.html), [Bitbucket](https://confluence.atlassian.com/bitbucket/create-a-git-repository-759857290.html), etc).
-4. Push the project contents from your computer into your new git repository. In your terminal, while in the root of your project folder, run the following commands to push the files and history into your new Git repository.
+#### Clone and Push Away
 
-```bash
-git remote rename origin upstream
+You may have cloned your NEXT project before, but if not, we've take a look at [this guide](https://docs.stoplight.io/platform/projects/git-repo#how-to-clone-your-stoplight-git-repository) to get the project's contents to a folder on your computer.
 
-# make sure to update the URL here with the http url to the Git repo you created in step 3!
-git remote add origin https://github.com/{organization}/{url}.git
-
-git push -u origin $(git rev-parse --abbrev-ref HEAD)
+```shell
+git clone --bare https://git.stoplight.io/example-organization/next-project.git
+cd next-project
 ```
 
-5. Once step 4 is complete, you should see the contents of your project in your new Git repository in your VCS. Repeat these steps for each of the NEXT projects you want to migrate.
+Next, create a new git repository in your VCS provider ([Github](https://help.github.com/en/github/getting-started-with-github/create-a-repo), [Gitlab](https://docs.gitlab.com/ee/gitlab-basics/create-project.html), [Bitbucket](https://confluence.atlassian.com/bitbucket/create-a-git-repository-759857290.html), etc). 
+
+When it's created, find the "repository URL" and push the project contents from your computer into your new git repository. In your terminal, while in the root of your project folder, run the following commands to push the files and history into your new Git repository.
+
+```bash
+git push --mirror git@github.com:example-organization/new-project.git
+```
+
+At this point, you should see the contents of your project in your new Git repository in your VCS. 
+
+_Repeat these steps for each of the NEXT projects you want to migrate._
+
+#### New Stoplight Workspace
 
 Now, let's create a Stoplight Workspace and add your projects.
 
-5. [Create](https://stoplight.io/welcome/create) your new [Stoplight Workspace](../2.-workspaces/a.creating-a-workspace.md).
-6. Please follow this [step-by-step guide](../1.-quickstarts/add-projects-quickstart.md#connect-an-existing-git-project) to connect your VCS account and add the projects from step 4.
+1. [Create](https://stoplight.io/welcome/create) your new [Stoplight Workspace](../2.-workspaces/a.creating-a-workspace.md).
+2. Please follow this [step-by-step guide](../1.-quickstarts/add-projects-quickstart.md#connect-an-existing-git-project) to connect your VCS account and add your new projects.
 
-Finally, let's invite your team to your new Stoplight workspace. The fastest way is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's signup page. Alternatively, you can also [invite members](../2.-workspaces/d.inviting-your-team.md) individually using their email.
+#### Invite Your Team
 
-### Migrating published docs
+The fastest way to get your team moved over to Stoplight Platform is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's signup page. 
 
-If you have published docs for external stakeholders (customers, the general public, etc), there are a couple of things to consider before migrating.
+Alternatively, you can also [invite members](../2.-workspaces/d.inviting-your-team.md) individually using their email.
+
+### Migrating Documentation
+
+If you have published documentation for external stakeholders (customers, the general public, etc), there are a couple of things to consider before migrating.
 
 1. Are you using a hub file (versus publishing an OpenAPI file)? If the answer is yes, then we recommend you wait until we release our hub migration tool (short term).
 2. Are you using a lot of custom CSS or custom JS? If the answer is yes, then we recommend you wait until we release our new [web components](https://roadmap.stoplight.io/c/57-embeddable-component-library), which will allow for a similar level of cutomizability.
