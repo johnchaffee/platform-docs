@@ -70,7 +70,7 @@ Early feedback, parallel development if API server and API consumer, maybe even 
 
 Stoplight Studio comes in two flavors:
 
-- Studio Web - A module available as part of Stoplight Platform
+- Studio Web - A module available as part of Stoplight
 - Studio Desktop - A downloadable desktop application for offline use, supporting macOS, Windows and Linux
 
 They both do the same job: help you create and modify content in your workspace's projects, and push changes back. Stoplight Studio chooses to do away with awkward two-way syncs introduced by some tools, and sticks to tried and tested Git-based workflows.

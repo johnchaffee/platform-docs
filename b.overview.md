@@ -1,12 +1,12 @@
-# Introduction to Stoplight Platform 
+# Introduction to Stoplight 
 		
 APIs have become the cornerstone of growth across organizations of all shapes and sizes. In the past APIs might have been an afterthought, created to satisfy integration requirements at a later point, but now they drive core new business models, providing critical integrations and improving efficiency throughout multiple products. 
 
 With the rise in importance means **shipping poorly planned APIs isn't an option anymore**, and Stoplight aims to bring together all the tools you need to make sure you're APIs are the best they can be.
 		
-### What is Stoplight Platform?
+### What is Stoplight?
 
-Stoplight Platform offers tooling across the API lifecycle that helps them build quality APIs efficiently. With Stoplight Platform your team can:
+Stoplight offers tooling across the API lifecycle that helps them build quality APIs efficiently. With Stoplight your team can:
 
 - `Design`: Help API architects **design excellent APIs quickly** providing machine readable API descriptions using standards (like OpenAPI), through an easy to use intuitive UI. 
 		

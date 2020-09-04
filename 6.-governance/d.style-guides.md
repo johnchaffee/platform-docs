@@ -109,7 +109,7 @@ Let's look at creating a style guide using "Custom Rulesets".
 
 You can do pretty much anything with a ruleset, by using our built-in functions, or get more powerful with [custom functions](https://meta.stoplight.io/docs/spectral/docs/guides/5-custom-functions.md)!
 
-Stoplight Platform, Studio, Spectral, etc. will all look for a `.spectral.yaml` file (or `.spectral.json` if you prefer) which contains a rules object. 
+Stoplight, Studio, Spectral, etc. will all look for a `.spectral.yaml` file (or `.spectral.json` if you prefer) which contains a rules object. 
 
 If I want to enforce all operations (API endpoints) are kebab-case `/berry-flavor/` instead of camelCase `/berryFlavour` or some other case, we could do that.
 

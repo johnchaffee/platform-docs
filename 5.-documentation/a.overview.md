@@ -134,7 +134,7 @@ Marketing pages are for the business audience. You want these to be high level a
 
 The Changelog section of your API documentation lets your users know how stable your API is. It also lets them know if anything's changed, in the instance that one of their calls stops working. These are also very helpful for existing users migrating to a newer version of your API. 
 
-You can take a look at [GitHub's changelog](https://developer.github.com/changes/) for an example of thorough changelog documentation. Stoplight Platform automatically generates changelogs for your artifacts that can be used to keep these up to date. We'll talk about this in detail later. 
+You can take a look at [GitHub's changelog](https://developer.github.com/changes/) for an example of thorough changelog documentation. Stoplight automatically generates changelogs for your artifacts that can be used to keep these up to date. We'll talk about this in detail later. 
 
 #### Terms of Use
 

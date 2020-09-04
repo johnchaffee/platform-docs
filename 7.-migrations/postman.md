@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Stoplight Platform supports all sorts of workflows for API design and documentation: Design-First and Code-First being the most common. Design First suggest teams are creating API descriptions in formats like OpenAPI and JSON Schema, and writing code that corresponds to that description later. Code-First suggests teams are creating all the code first, then writing API Reference documentation later somehow, either in Google Docs, Spreadsheets, a Content Management System, Postman Collections, or OpenAPI based tooling.
+Stoplight supports all sorts of workflows for API design and documentation: Design-First and Code-First being the most common. Design First suggest teams are creating API descriptions in formats like OpenAPI and JSON Schema, and writing code that corresponds to that description later. Code-First suggests teams are creating all the code first, then writing API Reference documentation later somehow, either in Google Docs, Spreadsheets, a Content Management System, Postman Collections, or OpenAPI based tooling.
 
 If your organiation is moving from code-first to design-first, you might be faced with the prospect of manually creating OpenAPI for every single request and response for every single API, and that is not an exciting prospect, so it's common to try and find shortcuts. 
 
@@ -51,7 +51,7 @@ Now, let's create a Stoplight Workspace and add your projects.
 
 API Descriptions can live in with source code, or in totally separate projects, it's up to you. 
 
-Assuming you'd like the API description to live in the same project as the code its using, open that project in Stoplight Platform, then click "Edit in Studio".
+Assuming you'd like the API description to live in the same project as the code its using, open that project in Stoplight, then click "Edit in Studio".
 
 Add a new API with the "+" icon.
 
@@ -93,7 +93,7 @@ There's all sorts of other stuff that can be improved, and Studio should let you
 
 ### Invite Your Team
 
-The fastest way to get your team moved over to Stoplight Platform is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's sign-up page. 
+The fastest way to get your team moved over to Stoplight is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's sign-up page. 
 
 Alternatively, you can also [invite members](../2.-workspaces/d.inviting-your-team.md) individually using their email.
 

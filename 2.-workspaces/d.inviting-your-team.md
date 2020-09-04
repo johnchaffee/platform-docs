@@ -6,7 +6,7 @@ tags: [Workspaces]
 
 Governance, design, development, documentation, and testing are all integral parts of creating and managing great APIs. Stakeholders across the API lifecycle end up working in silos switching between different tools leading to inconsistencies, lack of collaboration and out of date information. 
 
-Stoplight Platform has been built with the modern API workflow in mind. It provides your team with the tooling to work in a single platform ensuring each stakeholder has the most up to date information, modern tooling, and visibility required to perform their job effectively.  
+Stoplight has been built with the modern API workflow in mind. It provides your team with the tooling to work in a single platform ensuring each stakeholder has the most up to date information, modern tooling, and visibility required to perform their job effectively.  
 
 ### Invite Workspace Members
 
@@ -23,7 +23,7 @@ Now that you know how to invite your team to Stoplight. Let's give you an overvi
 
 #### API Champion / Landscape Manager
 
-API Champions in an organization are key proponents of bringing API change across an organization. Successful API programs have seen leaders evangelizing the need for key changes in the API lifecycle, identifying issues in the API ecosystem, and leading initiatives among cross-functional teams to solve those. For these individuals, Stoplight Platform is a key tool in their armory as it gives them the required visibility across their organization. 
+API Champions in an organization are key proponents of bringing API change across an organization. Successful API programs have seen leaders evangelizing the need for key changes in the API lifecycle, identifying issues in the API ecosystem, and leading initiatives among cross-functional teams to solve those. For these individuals, Stoplight is a key tool in their armory as it gives them the required visibility across their organization. 
 
 Champions can:
 - Explore APIs across their organization using Explorer

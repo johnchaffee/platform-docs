@@ -4,7 +4,7 @@ tags: [governance]
 
 # Get Started with API Governance
 
-[API governance](a.overview.md) is being undertaken across companies of all shapes and sizes, but that's not to say that all of them achieve their desired objectives. Some API governance efforts try to standardize too much too soon and create overly restrictive rules which block legitimate work. API development teams then try to circumnavigate thme resulting  in more problems than improvements. To build a successful API governance program, thinking about governance in the right context is paramount. This can usually be solved via cooperation with collaborators from across the organization, surveying them to find and solve legitimate problems that do not slow developers down. There's no single strategy that fits all circumstances and use-cases. Governance is often a balancing act, and it's wise to take a light step-by-step approach. Stoplight Platform arms you with the tooling to help you at each stage of your initiative. 
+[API governance](a.overview.md) is being undertaken across companies of all shapes and sizes, but that's not to say that all of them achieve their desired objectives. Some API governance efforts try to standardize too much too soon and create overly restrictive rules which block legitimate work. API development teams then try to circumnavigate thme resulting  in more problems than improvements. To build a successful API governance program, thinking about governance in the right context is paramount. This can usually be solved via cooperation with collaborators from across the organization, surveying them to find and solve legitimate problems that do not slow developers down. There's no single strategy that fits all circumstances and use-cases. Governance is often a balancing act, and it's wise to take a light step-by-step approach. Stoplight arms you with the tooling to help you at each stage of your initiative. 
 
 While a lot of decisions would be taken in the context of your organization, these pointers can help you craft and execute your plan.
 
@@ -22,11 +22,11 @@ Before diving into governance in your organization, it's important to map out yo
 
 A recurring problem that is seen in rapidly growing API programs is not knowing where your APIs are—not knowing what services exist or their current status leads to duplication, inconsistencies, and unanticipated disruptions. *You can't fix what you don't know is broken*. 
 
-Create an inventory of your existing APIs. You can use Stoplight Platform to [add your projects](../2.-workspaces/b.adding-projects.md) from version control or other file systems. Creating this central view is necessary for achieving your governance goals. It's important to get as many of the APIs as you can across your organization into this inventory. 
+Create an inventory of your existing APIs. You can use Stoplight to [add your projects](../2.-workspaces/b.adding-projects.md) from version control or other file systems. Creating this central view is necessary for achieving your governance goals. It's important to get as many of the APIs as you can across your organization into this inventory. 
 
 #### Explore Your Landscape
 
-With your inventory of APIs ready, you can start gauging the current status of your API landscape. Stoplight Platform makes it easy to visualize and rationalize your APIs. After [adding your projects](../2.-workspaces/b.adding-projects.md) to the Explorer you can discover:
+With your inventory of APIs ready, you can start gauging the current status of your API landscape. Stoplight makes it easy to visualize and rationalize your APIs. After [adding your projects](../2.-workspaces/b.adding-projects.md) to the Explorer you can discover:
 
 - Existing APIs
 - API descriptions and the description formats being used, e.g., OpenAPI v3, Postman
@@ -69,7 +69,7 @@ Learn more about [Style Guides](d.style-guides.md).
 
 As the number of APIs in your portfolio grows, folks need to have an easy way to discover your APIs. To enable this, you should make a catalog of APIs with up to date documentation. 
 
-Using Stoplight Platform, you can:
+Using Stoplight, you can:
 
 - [Create Documentation](../4.-documentation/a.overview.md) where teams can publish their APIs for internal and external consumption.
 - Add team members to your workspace to help them keep track of dependencies using Explorer. 
@@ -86,7 +86,7 @@ APIs often need modifications or sometimes deprecating, and versioning is theref
 
 Having to rely on your teams to manually apply your API governance rules is no fun for anyone, and not feasible when you're developing APIs at scale. Ensure your API governance rules are met before an API can be deployed. Deploying APIs with governance violations even internally is not recommended.
 
-Stoplight Platform makes this easy along the lifecycle using:
+Stoplight makes this easy along the lifecycle using:
 - Automatic Style Guides[creating style guides](d.style-guides.md)
 - Contract Testing powered by [automatic mock servers](../3.-design/d.setting-up-a-mock-server.md)
 
@@ -97,5 +97,3 @@ Governance is an ongoing initiative. Explorer provides you with a bird's eye vie
 - Get more stakeholders on board
 - Evangelize about your APIs and governance initiatives 
 - Gather feedback
-
-> In addition to the current style guide enforcement on an API level, Stoplight Platform would soon have a Quality module that would allow enforcement of guidelines across all APIs. It will also help gauge and monitor the current status of style conformity across APIs.  
