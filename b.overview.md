@@ -20,7 +20,7 @@ Stoplight Platform offers tooling across the API lifecycle that helps them build
 - `Collaborate`: Create workspaces, manage roles, and permissions, powered by integrated tooling on top of your favorite version control system to **collaborate in real-time without losing your single source of truth**. 
 		
 
-- `Govern`: **Promote reuse, consistency, and quality across your company** by exploring artifacts, creating common design libraries using our powerful Explorer, and leveraging automated style guides to make sure your APIs are the best they can be. 
+- `Govern`: **Promote reuse, consistency, and quality across your company** by exploring artifacts and leveraging automated style guides to make sure your APIs are the best they can be. 
 		
 
 - `Integrate`: Stoplight is powered by industry-leading standards that help your team on board quickly and use our tooling without being locked in at any part of the lifecycle. Our tooling is based on:

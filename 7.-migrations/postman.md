@@ -99,7 +99,7 @@ Alternatively, you can also [invite members](../2.-workspaces/d.inviting-your-te
 
 ### Migrating Documentation
 
-If you have been using Postman Documentation then you'll be pretty at home with Stoplight Documentation. Pushing to your Git repo will [automatically publish](../2.-workspaces/g.automating-publishing.md) changes to Documentation, Mock Servers, and update Explorer and your shared Design Libraries. 
+If you have been using Postman Documentation then you'll be pretty at home with Stoplight Documentation. Pushing to your Git repo will [automatically publish](../2.-workspaces/g.automating-publishing.md) changes to Documentation, Mock Servers, and update Explorer. 
 
 No work required on your part, just set up the permissions and share your workspace or project with other people via the same URLs you're looking at them with. Those URLs probably look like:
 

@@ -29,7 +29,6 @@ Champions can:
 - Explore APIs across their organization using Explorer
 - Gauge the current state of APIs, documentation and identify areas where improvements are required
 - Establish guidelines for API design and documentation by creating standards
-- Create design libraries to promote reuse
 - Invite API teams working in silos to the workspace bringing them into governance initiatives
 - Use the explorer and documentation to evangelize the business value of APIs to other leaders in the company
 
@@ -63,7 +62,6 @@ Architects can:
 - Write descriptions for endpoints, parameters, and schemas that can be built upon by technical writers 
 - Use inbuilt mocking to get quick feedback on their API designs from internal stakeholders and API consumers
 - Validate API design inside the Studio against established company guidelines
-- Reuse schemas in the design library to ensure consistency
 - Test APIs being developed against their API design automatically
 
 Architects are usually invited by Champions or Product Managers of their API team. We recommend giving them the **maker** role to start creating new APIs and work effectively on existing projects.

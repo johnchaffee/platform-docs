@@ -2,7 +2,7 @@
 tags: [Workspaces]
 ---
 
-# Add Projects
+# Adding Projects
 
 Within Workspaces, the most important concept in Stoplight is "Projects". Projects are a place for you to manage APIs, articles, and any other files that you want to store together.
 

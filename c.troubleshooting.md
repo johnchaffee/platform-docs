@@ -1,17 +1,15 @@
 # Troubleshooting
 
-If you are having trouble with Stoplight Platform and cannot find an answer in the documentation, see if this page can help, then [contact support](mailto:support@stoplight.io) if not.
+If you are having trouble with Stoplight and cannot find an answer in the documentation, don't hesitate to [reach out to our Support Team](mailto:support@stoplight.io) at support@stoplight.io.
 
 ## Browser Support
 
-We aim to support the following browsers and minimum versions. 
+We aim to support the following browser versions. 
 
-|               | Chrome | Safari                   | Firefox | Edge                     |
-|---------------|--------|--------------------------|---------|--------------------------|
-| Documentation | 68     | 12                       | 60      | 18                       |
-| Platform      | 68     | 12                       | 60      | Not Supported            |
-| Studio Web    | 75     | Not Supported            | 68      | Not Supported            |
+|               | Chrome | Safari            | Firefox | Edge              |
+| ------------- | ------ | ----------------- | ------- | ----------------- |
+| Documentation | >= v68 | >= v12            | >= v60  | >= v18            |
+| Platform      | >= v68 | >= v12            | >= v60  | **Not Supported** |
+| Studio        | >= v75 | **Not Supported** | >= v68  | **Not Supported** |
 
-Things may work outside of these browsers and these versions, but there might be unexpected problems as we won't be testing those environments.
-
-If something is not working in a version listed here (or newer) please [contact support](mailto:support@stoplight.io).
+> Stoplight may still work outside of the versions listed above, however we cannot provide any guarantees and they will not be included in our testing.

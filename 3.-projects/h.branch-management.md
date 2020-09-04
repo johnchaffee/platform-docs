@@ -12,13 +12,13 @@ Regardless of the model, there is always a default branch. Branches could be nam
 
 > This feature is available on the Stoplight **Starter** plan, and above.
 
-The [publishing process](g.automating-publishing.md) is automatically enabled for the default branch. When the default branch is published it updates all sorts of things: Explorer, Documentation, Mock Servers, and Design Library. 
+The [publishing process](g.automating-publishing.md) is automatically enabled for the default branch. When the default branch is published it, updates all sorts of things: Explorer, Documentation, and Mock Servers.
 
 You can enable more branches for publishing than just the default branch.
 
 ![](../assets/images/enable-publishing.png)
 
-Currently, explorer, mock servers, and the design library will only show content for the default branch, but documentation lets viewers pick between branches, using the "Versions" dropdown (because this sort of thing is usually used for showing different versions!)
+Currently, Explorer and mock servers will only show content for the default branch, but documentation lets viewers pick between branches, using the "Versions" dropdown (because this sort of thing is usually used for showing different versions!)
 
 ![The version dropdown in documentation showing various unpublished branches](../assets/images/docs-selecting-branches.png)
 
@@ -39,10 +39,10 @@ Doing this can make things more clear for end-users of your software, API, etc. 
 
 For example, if you are using Git Flow, you could name your branches this:
 
-git | Stoplight
----------|----------
-master | Stable
-develop | Development
+| git     | Stoplight   |
+| ------- | ----------- |
+| master  | Stable      |
+| develop | Development |
 
 ![](../assets/images/edit-branch.png)
 
@@ -52,11 +52,11 @@ When viewed in documentation:
 
 Another example might be keeping different versions of APIs in different branches, and you want to advertise which APIs people should be using without changing the names in Git:
 
-git | Stoplight
----------|----------
-v4 | v4 (Legacy)
-v5 | v5 (Stable)
-v6 | v6 (Beta)
+| git | Stoplight   |
+| --- | ----------- |
+| v4  | v4 (Legacy) |
+| v5  | v5 (Stable) |
+| v6  | v6 (Beta)   |
 
 Maybe the v5 branch is marked as stable, then when v6 is deployed ti production the default is changed.
 

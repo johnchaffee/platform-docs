@@ -1,6 +1,6 @@
 # Publishing
 
-Whenever changes are made to your API descriptions or Markdown documentation, whether that is done in Stoplight Studio or anywhere else, you want to get those changes reflected in Documentation, Mock Servers, Explorer, the Design Library, etc.
+Whenever changes are made to your API descriptions or Markdown documentation, whether that is done in Stoplight Studio or anywhere else, you want to get those changes reflected in Documentation, Mock Servers, Explorer, etc.
 
 For those projects using Git to push changes (either via Stoplight Studio or any other git client), pushing to the "default branch" will trigger a Publish, as will pushing to any other branch which has Publishing enabled. To make this work we use something called [Webhooks](#webhooks).
 

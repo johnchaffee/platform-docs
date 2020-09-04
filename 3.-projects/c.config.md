@@ -2,7 +2,7 @@
 tags: [Workspaces]
 ---
 
-# Configure Projects
+# Configuring Projects
 
 Seeing as your projects can contain all sorts of files, sometimes you might not want Stoplight to analyze specific files. For example, if a project is backed by a Git repo which also contains a bunch of developer-only internal Markdown files, you might not want those going on your public documentation, 
 
