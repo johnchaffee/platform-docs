@@ -4,6 +4,8 @@ Stoplight Platform is first and foremost an API design management tool, which ca
 
 > This is John testing the Github sync
 
+- [ ] Spotlight was here
+
 ### Quick-start
 
 1. [Add Projects](1.-quickstarts/add-projects-quickstart.md)
