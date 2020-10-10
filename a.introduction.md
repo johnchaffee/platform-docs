@@ -2,6 +2,8 @@
 
 Stoplight Platform is first and foremost an API design management tool, which can be used to design, develop, test, and document HTTP APIs using industry standards like OpenAPI, and Markdown for written-form documentation.
 
+> This is John testing the Github sync
+
 ### Quick-start
 
 1. [Add Projects](1.-quickstarts/add-projects-quickstart.md)
