@@ -5,6 +5,7 @@ Stoplight Platform is first and foremost an API design management tool, which ca
 > This is John testing the Github sync
 
 - [ ] Spotlight was here
+- [ ] Local edit was here
 
 ### Quick-start
 
